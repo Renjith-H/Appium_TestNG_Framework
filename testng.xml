@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="/Users/qburst/Desktop/Appium2.0_2023_TestNG/src/test/java/renjith/test/AndroidTest.java">
+        <classes>
+            <class name="renjith.test.AndroidTest">
+                <methods>
+
+                    <include name="successfulLoginTest"/>
+
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
