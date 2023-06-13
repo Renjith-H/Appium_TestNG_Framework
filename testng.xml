@@ -3,6 +3,9 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true"
           name="/Users/qburst/Desktop/Appium2.0_2023_TestNG/src/test/java/renjith/test/AndroidTest.java">
+        <parameter name="platformName" value="Android"></parameter>
+        <parameter name="deviceName" value="Pixel 5 API 32"></parameter>
+        <parameter name="avdName" value="Pixel_2_API_32"></parameter>
         <classes>
             <class name="renjith.test.AndroidTest">
                 <methods>
